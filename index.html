@@ -29,51 +29,6 @@
 	
 	<body>
 		
-		<!-- modal for booking ticket form -->
-		<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Name of The Event &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
-					</div>
-					<!-- form for events ticket booking -->
-					<form>
-						<div class="modal-body">
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@mail.com">
-							</div>
-							<div class="form-group">
-								<label for="exampleInputContact">Contact</label>
-								<input type="text" class="form-control" id="exampleInputContact" placeholder="+91 55 5555 5555">
-							</div>
-							<div class="form-group">
-								<label for="exampleInputSeats">Number of Tickets</label>
-								<select class="form-control" id="exampleInputSeats">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox"> I accept the Terms of Service
-								</label>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							<!-- link to payment gatway here -->
-							<button type="button" class="btn btn-primary">Book Now</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		
 		<!-- wrapper -->
 		<div class="wrapper" id="home">
 		
@@ -87,17 +42,6 @@
 							<strong>Phone</strong>:&nbsp; <a href="#">555 555 555</a>&nbsp;&nbsp;&nbsp;&nbsp;
 							<strong>E-mail</strong>:&nbsp; <a href="#">music.site@melodi.com</a>
 						</div>
-						<!-- secondary menu right link area -->
-						<div class="sm-right">
-							<!-- social link -->
-							<div class="sm-social-link">
-								<a class="h-facebook" href="#"><i class="fa fa-facebook"></i></a>
-								<a class="h-twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="h-google" href="#"><i class="fa fa-google-plus"></i></a>
-								<a class="h-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="clearfix"></div>
 					</div>
 				</nav>
 				<!-- primary menu -->
@@ -105,12 +49,6 @@
 					<div class="container">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
 							<!-- logo area -->
 							<a class="navbar-brand" href="#home">
 								<!-- logo image -->
@@ -127,7 +65,7 @@
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="#featuredsolutions">Featured Solutions</a></li>
 								<li><a href="#services">Services</a></li>
-								<li><a href="#joinus">Join Us</a></li>
+								<!-- <li><a href="#joinus">Join Us</a></li> -->
 								<!-- <li><a href="#portfolio">Portfolio</a></li> -->
 								<!-- <li><a href="#events">Events</a></li> -->
 								<li><a href="#schedule">Schedule an Appointment</a></li>
@@ -189,188 +127,13 @@
 			<!-- block for animate navigation menu -->
 			<div class="nav-animate"></div>
 			
-			<!-- Hero block area -->
-			<div id="featuredsolutions" class="hero pad">
-				<div class="container">
-					<!-- hero content -->
-					<div class="hero-content ">
-						<!-- heading -->
-						<h2>Featured Solutions</h2>
-						<hr>
-						<!-- paragraph -->
-						<p>We sing the best <strong class="theme-color">Songs</strong> and now we control the world best <strong class="theme-color">Music</strong>.</p>
-					</div>
-					<!-- hero play list -->
-					<div class="hero-playlist">
-						<div class="row">
-							<div class="col-md-6 col-sm-6">
-								<!-- music album image -->
-								<div class="figure">
-									<!-- image -->
-									<img class="img-responsive" src="img/album/1.jpg" alt="" />
-									<!-- disk image -->
-									<img class="img-responsive disk" src="img/album/disk.png" alt="" />
-								</div>
-								<!-- album details -->
-								<div class="album-details">
-									<!-- title -->
-									<h4>Perfect Melodi</h4>
-									<!-- composed by -->
-									<h5>By Himanshu</h5>
-									<!-- paragraph -->
-									<p>Lorem Ipsum has been the industry's standard dummy text ever since 1500.</p>
-									<!-- button -->
-									<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp; Play Now</a>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6">
-								<!-- play list -->
-								<div class="playlist-content">
-									<ul class="list-unstyled">
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track One</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Two</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Three</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Four</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Five</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Six</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Seven</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-										<li class="playlist-number">
-											<!-- song information -->
-											<div class="song-info">
-												<!-- song title -->
-												<h4>Melodi Song Track Eight</h4>
-												<p><strong>Album</strong>: Title &nbsp;|&nbsp; <strong>Type</strong>: Rock &nbsp;|&nbsp; <strong>Singer</strong>: Dawn</p>
-											</div>
-											<!-- music icon -->
-											<div class="music-icon">
-												<a href="#"><i class="fa fa-play"></i></a>
-												<a href="#"><i class="fa fa-pause"></i></a>
-											</div>
-											<div class="clearfix"></div>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ hero end -->
-			
-			<!-- promo -->
-			<div class="promo parallax-one pad">
-				<div class="container">
-					<!-- promo element -->
-					<div class="promo-element ">
-						<!-- heading -->
-						<h3>Fast and Tailored Solutions</h3>
-						<!-- paragraph -->
-						<p><strong>Sound on Call</strong> offers quick and exact solutions for <strong>all</strong> situations with professionals available <strong>24/7 </strong> on call. Second sentence here blah blah blah</p>
-						<!-- link -->
-						<a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a>
-					</div>
-				</div>
-			</div>
-			<!--/ promo end -->
-			
 			<!-- featured abbum -->
 			<div class="featured pad" id="services">
 				<div class="container">
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Exclusive Services</h2>
+						<h2>Featured Solutions</h2>
 					</div>
 					<!-- featured album elements -->
 					<div class="featured-element">
@@ -448,109 +211,70 @@
 				</div>
 			</div>
 			<!-- features end -->
-			
-			<!-- call to action -->
-			<div class="cta parallax-one pad">
+
+			<!-- promo -->
+			<div class="promo parallax-one pad">
 				<div class="container">
-					<!-- cta element -->
-					<div class="cta-element ">
+					<!-- promo element -->
+					<div class="promo-element ">
+						<!-- heading -->
+						<h3>Fast and Tailored Solutions</h3>
+						<!-- paragraph -->
+						<p><strong>Sound on Call</strong> offers quick and exact solutions for <strong>all</strong> situations with professionals available <strong>24/7 </strong> on call. Second sentence here blah blah blah</p>
+						<!-- link -->
+						<!-- <a class="promo-link" href="#"><i class="fa fa-play-circle"></i></a> -->
+					</div>
+				</div>
+			</div>
+			<!--/ promo end -->
+
+
+			<!-- Hero block area -->
+			<div id="featuredsolutions" class="hero pad">
+				<div class="container">
+					<!-- hero content -->
+					<div class="hero-content text-center">
+						<!-- heading -->
+						<h2>Featured Solutions</h2>
+						<hr>
+						<!-- paragraph -->
+						<p>We sing the best <strong class="theme-color">Songs</strong> and now we control the world’s best <strong class="theme-color">Music</strong>.</p>
+					</div>
+
+					<!-- Hero Content -->
+					<div class="hero-playlist">
 						<div class="row">
-							<div class="col-md-9 col-sm-8">
-								<!-- heading -->
-								<h3>Get Your First Free 30 Min Consultation Today</h3>
-								<!-- paragraph -->
-								<p>Discuss your set up, improvements, etc with our professionals today on call. more paragrphs here blah blah blah</p>
+							<!-- Left Side: Music Album Image & Details -->
+							<div class="col-md-6 col-sm-6">
+								<div class="figure">
+									<!-- Album Image -->
+									<img class="img-responsive" src="img/album/1.jpg" alt="Album Cover" />
+									<!-- Disk Image -->
+									<img class="img-responsive disk" src="img/album/disk.png" alt="Spinning Disk" />
+								</div>
+								<!-- Album Details -->
+								<div class="album-details">
+									<h4>Perfect Melody</h4>
+									<h5>By Himanshu</h5>
+									<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+									<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp; Play Now</a>
+								</div>
 							</div>
-							<div class="col-md-3 col-sm-4">
-								<div class="cta-btn text-center">
-									<!-- purchase now button -->
-									<a href="#" class="btn btn-default btn-lg">Book Now</a>
+
+							<!-- Right Side: Descriptive Text -->
+							<div class="col-md-6 col-sm-6">
+								<div class="description-content">
+									<p>Our featured solutions offer top-quality music production, carefully crafted for a unique sound experience. Each track is designed to bring out the best in creativity and musical harmony.</p>
+									<p>With state-of-the-art sound engineering, our albums are made to provide a perfect balance between rhythm, melody, and emotional depth.</p>
+									<p>Join us in creating groundbreaking music that resonates with audiences worldwide. From rock to classical, our solutions offer unparalleled quality and originality.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--/ cta end -->
-			
-			<!-- work with us -->
-			<div class="work-with-us pad" id="joinus">
-				<div class="container">
-					<!-- default heading -->
-					<div class="default-heading">
-						<!-- heading -->
-						<h2>Work With Us</h2>
-					</div>
-					<!-- why work with us content -->
-					<div class="why-content">
-						<!-- paragraph -->
-						<p class="why-message">It would be a great pleasure to have you in our team, follow these steps to join us.</p>
-						<div class="row">
-							<div class="col-md-3 col-sm-6">
-								<!-- why work with us item -->
-								<div class="why-item  delay-one">
-									<span class="why-number">1</span>
-									<!-- paragraph -->
-									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus antium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<!-- why work with us item -->
-								<div class="why-item  delay-two">
-									<span class="why-number">2</span>
-									<!-- paragraph -->
-									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accu santium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<!-- why work with us item -->
-								<div class="why-item  delay-three">
-									<span class="why-number">3</span>
-									<!-- paragraph -->
-									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus antium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<!-- why work with us item -->
-								<div class="why-item  delay-four">
-									<span class="why-number">4</span>
-									<!-- paragraph -->
-									<p>Sed ut perspi ciatis unde omnis iste natus error sit vol uptatem accus antium totam rem aperiam, eaque ipsa quae ab illo inventore veritatisnatus.</p>
-								</div>
-							</div>
-						</div>
-						<!-- apply button -->
-						<div class="apply-btn">
-							<!-- button line -->
-							<a class="btn btn-lg btn-theme" href="#">Join Now</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ end work with us -->
-			
-			<!-- news letter -->
-			<!-- <div class="news-letter">
-				<div class="container"> -->
-					<!-- news letter inner content -->
-					<!-- <div class="news-content "> -->
-						<!-- heading -->
-						<!-- <h3>Sign Up For Newsletter</h3> -->
-						<!-- paragraph -->
-						<!-- <p><strong>Contact Us</strong> and let us know if you have any questions, Don't forget to subscribe for more awesome stuff by typing mail bellow.</p> -->
-						<!-- subscribe form -->
-						<!-- <form>
-							<div class="input-group">
-								<input type="text" class="form-control input-lg" placeholder="Email">
-								<span class="input-group-btn">
-									<button class="btn btn-default btn-lg" type="button">Subscribe</button>
-								</span>
-							</div>/input-group -->
-						<!-- </form>
-					</div>
-				</div>
-			</div> -->
-			<!-- news letter end -->
+			<!--/ hero end -->
+
 			
 			<!-- events -->
 			<div class="events parallax-three pad" id="schedule">
