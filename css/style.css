@@ -66,10 +66,68 @@ hr{
 
 .pad {padding: 130px 0px;}
 
-.parallax-one { background: url('../img/promo/p1.jpg');}
+/* .parallax-one { background: url('../img/promo/p1.jpg')}
 .parallax-two { background: url('../img/background/overlay.png'), url('../img/promo/1.jpg') fixed 50%;}
 .parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p1.jpg') fixed 50%;}
-.parallax-four { background: url('../img/background/overlay.png'), url('../img/promo/p1.jpg') fixed 50%;}
+.parallax-four { background: url('../img/background/overlay.png'), url('../img/promo/p1.jpg') fixed 50%;} */
+
+.parallax-one {
+    background: url('../img/promo/p1.jpg');
+    background-size: 100% auto; 
+    background-position: top center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-two,
+.parallax-three,
+.parallax-four {
+    background: url('../img/promo/p1.jpg');
+    background-size: 100% auto; 
+    background-position: top center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.btn-custom {
+    background-color: #c9ad68 !important;
+    color: white !important;
+    border: none;
+    padding: 12px 32px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #b89c5f !important; /* Slightly darker shade on hover */
+    color: white !important;
+}
+
+/* Button Styling */
+.schedule-btn {
+    display: inline-block;
+    /* margin-top: 10px; */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c9ad68; /* Gold color */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.schedule-btn:hover {
+    background-color: #b89c5f; /* Slightly darker gold */
+    color: white;
+}
+
+
 
 /* 
  * Basic CSS ends 
@@ -176,6 +234,11 @@ hr{
   animation-duration:2s;
   animation-delay:1s;
 }
+
+.carousel-inner .item img {
+    filter: brightness(70%); /* Adjust darkness: Lower = darker */
+}
+
 
 .banner .carousel .carousel-caption h2 i {
 	font-size: 64px;
@@ -976,12 +1039,34 @@ hr{
 .meet-map .map-marker.brazil {top: 64%;	left: 30%;}
 
 /* contact */
-.contact  .contact-item {
+
+.contact-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .contact-circle .icon-circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+} */
+
+/* .schedule-btn {
+    position: relative;
+} */
+
+/* .contact  .contact-item {
 	max-width: 450px;
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 100px;
-}
+} */
 
 .contact  .contact-item i {
 	display: block;
