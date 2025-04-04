@@ -63,13 +63,7 @@ hr{
 	font-size: 18px;
 }
 
-
 .pad {padding: 130px 0px;}
-
-/* .parallax-one { background: url('../img/promo/p1.jpg')}
-.parallax-two { background: url('../img/background/overlay.png'), url('../img/promo/1.jpg') fixed 50%;}
-.parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p1.jpg') fixed 50%;}
-.parallax-four { background: url('../img/background/overlay.png'), url('../img/promo/p1.jpg') fixed 50%;} */
 
 .parallax-one {
     background: url('../img/promo/p1.jpg');
@@ -87,8 +81,7 @@ hr{
     background-position: top center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
+} 
 
 .btn-custom {
     background-color: #c9ad68 !important;
@@ -96,26 +89,24 @@ hr{
     border: none;
     padding: 12px 32px;
     font-size: 18px;
-    /* font-weight: bold; */
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn-custom:hover {
-    background-color: #b89c5f !important; /* Slightly darker shade on hover */
+    background-color: #b89c5f !important;
     color: white !important;
 }
 
 /* Button Styling */
 .schedule-btn {
     display: inline-block;
-    /* margin-top: 10px; */
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    background-color: #c9ad68; /* Gold color */
+    background-color: #c9ad68;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -123,11 +114,9 @@ hr{
 
 /* Hover effect */
 .schedule-btn:hover {
-    background-color: #b89c5f; /* Slightly darker gold */
+    background-color: #b89c5f; 
     color: white;
 }
-
-
 
 /* 
  * Basic CSS ends 
@@ -517,7 +506,7 @@ hr{
 	font-size: 32px;
 	line-height: 44px;
 	font-weight: 300;
-	color: #fff;	
+	color: #fff;
 }
 
 .promo .promo-element .promo-link {
